@@ -1,0 +1,14 @@
+/Users/nelsonmureire/RiderProjects/Module-2/HighLowNumberGuessing/bin/Debug/net9.0/HighLowNumberGuessing
+/Users/nelsonmureire/RiderProjects/Module-2/HighLowNumberGuessing/bin/Debug/net9.0/HighLowNumberGuessing.deps.json
+/Users/nelsonmureire/RiderProjects/Module-2/HighLowNumberGuessing/bin/Debug/net9.0/HighLowNumberGuessing.runtimeconfig.json
+/Users/nelsonmureire/RiderProjects/Module-2/HighLowNumberGuessing/bin/Debug/net9.0/HighLowNumberGuessing.dll
+/Users/nelsonmureire/RiderProjects/Module-2/HighLowNumberGuessing/bin/Debug/net9.0/HighLowNumberGuessing.pdb
+/Users/nelsonmureire/RiderProjects/Module-2/HighLowNumberGuessing/obj/Debug/net9.0/HighLowNumberGuessing.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nelsonmureire/RiderProjects/Module-2/HighLowNumberGuessing/obj/Debug/net9.0/HighLowNumberGuessing.AssemblyInfoInputs.cache
+/Users/nelsonmureire/RiderProjects/Module-2/HighLowNumberGuessing/obj/Debug/net9.0/HighLowNumberGuessing.AssemblyInfo.cs
+/Users/nelsonmureire/RiderProjects/Module-2/HighLowNumberGuessing/obj/Debug/net9.0/HighLowNumberGuessing.csproj.CoreCompileInputs.cache
+/Users/nelsonmureire/RiderProjects/Module-2/HighLowNumberGuessing/obj/Debug/net9.0/HighLowNumberGuessing.dll
+/Users/nelsonmureire/RiderProjects/Module-2/HighLowNumberGuessing/obj/Debug/net9.0/refint/HighLowNumberGuessing.dll
+/Users/nelsonmureire/RiderProjects/Module-2/HighLowNumberGuessing/obj/Debug/net9.0/HighLowNumberGuessing.pdb
+/Users/nelsonmureire/RiderProjects/Module-2/HighLowNumberGuessing/obj/Debug/net9.0/HighLowNumberGuessing.genruntimeconfig.cache
+/Users/nelsonmureire/RiderProjects/Module-2/HighLowNumberGuessing/obj/Debug/net9.0/ref/HighLowNumberGuessing.dll
