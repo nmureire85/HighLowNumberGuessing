@@ -4,48 +4,43 @@ class Program
 {
     static void Main(string[] args)
     {
+        const int MinNumber = 1;
+        const int MaxNumber = 100;
+        const int MaxGuesses = 10;
+        const int ClosedDistance = 5;
+
         Console.WriteLine("Welcome to the High Low Number Guesser!");
 
+        Random random = new Random();
+        int randomNumber = random.Next(MinNumber, MaxNumber + 1);
 
-        for (int guessCount = 0; guessCount < 10; guessCount++)
+        
+        for (int guessCount = 0; guessCount < MaxGuesses; guessCount++)
         {
-            Random random = new Random();
-            int randomNumber = random.Next(1, 100);
-
             Console.WriteLine("Enter a number: ");
             int number = int.Parse(Console.ReadLine());
-
             int difference = Math.Abs(number - randomNumber);
-
+            Console.WriteLine($"Guess {guessCount + 1} of {MaxGuesses}");
+            
             if (number < randomNumber)
             {
                 Console.WriteLine("too low");
-            }
-
-            if (number > randomNumber)
+            } else if (number > randomNumber)
             {
                 Console.WriteLine("too high");
             }
-
-            if (number == randomNumber)
+            else
             {
-                Console.WriteLine("You won");
+                Console.WriteLine($"You won");
                 return;
             }
 
-            if (difference <= 5)
+            if (difference == ClosedDistance)
             {
-                Console.WriteLine($"You are close!. The random  number was {randomNumber}");
+                Console.WriteLine($"You are close!.");
             }
-
-            Console.WriteLine($"number of guesses : {guessCount} ");
-            if (guessCount < 5)
-            {
-                continue;
-            }
-
-            Console.WriteLine("You lose");
-            break;
+            
         }
+        Console.WriteLine($"You lose! The number was {randomNumber}.");
     }
 }
